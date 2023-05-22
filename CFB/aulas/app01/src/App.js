@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
 
-
+const channel = 'Tzion Brazil'
 const App = ()=>{
   return(
     <>
       <h1>
-        שלום עליכם!
+      <p>{channel}</p>
+              שלום עליכם!
       </h1>
     </>
   )
