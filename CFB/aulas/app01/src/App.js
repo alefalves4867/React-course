@@ -7,7 +7,7 @@ const channel = 'Tzion Brazil'
 const App = ()=>{
   return(
     <>
-    <Hd1></Hd1>
+    <Hd1></Hd1>/*hd1 */
 
     </>
   )
