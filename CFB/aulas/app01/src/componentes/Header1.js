@@ -4,7 +4,7 @@ export default function Header1(){
     return(
         <header>
              <section>
-            <p>שלום עליכם מלכי השלום מלכי אליון</p>
+            <p style={{color:'black', fontSize:'1.2em'}}>שלום עליכם מלכי השלום מלכי אליון</p>
             </section>
         </header>
 

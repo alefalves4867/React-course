@@ -1,10 +1,13 @@
 import React from 'react'
 
 export default function Dados(props){
-
+    const textoDestaque = {
+        color:'darkblue',
+        fontSize:'2em'
+    }
     
     return(
-        <p>Canal: {props.canal}</p>
+        <p style={textoDestaque}>Canal: {props.canal}</p>
        
     )
 }
