@@ -1,19 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './App.css'
-import Hd1 from './componentes/Header1.js'
-import Dados from './componentes/Dados.js'
-import Corpo from './componentes/Body.js'
-import Hora from './componentes/Relogio.js'
+import State from './componentes/State.js'
+
 
 const App = ()=>{
-  
+  const [num,setNum]=useState(0)
 
   return(
     <>
-    <Hd1/>
-    <Dados canal={Corpo()}/>
-
-    <Hora/>
+    <State setNum = {setNum} num = {num}/>
     </>
   )
 }
