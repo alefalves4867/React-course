@@ -16,10 +16,7 @@ const App = ()=>{
   })
 
   return(
-    <>
-    <p>{lista}</p>
     
-    </>
   )
 }
 
