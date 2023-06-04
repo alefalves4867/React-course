@@ -1,22 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './App.css'
+import Al14 from './componentes/aula14.js'
 
 
 
-const App = ()=>{
-  const carros = ['SUV', 'Golf', 'Meseit', 'Mekhonit']
-  const lista = carros.map((e)=>{
-    return(
-      <>
-      <div>{e}</div>
-      <p>-----</p>
-      </>
-    )
-    
-  })
+const App = ()=>{ 
+
+ 
 
   return(
-    
+    <>
+
+
+    <Al14 useState = {useState}/>
+    </>
   )
 }
 
