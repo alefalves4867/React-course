@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './App.css'
-import Al14 from './componentes/aula14.js'
+import Al16 from './componentes/aula16.js'
 
 
 
@@ -11,8 +11,7 @@ const App = ()=>{
   return(
     <>
 
-
-    <Al14 useState = {useState}/>
+    <Al16 state = {useState}/>
     </>
   )
 }

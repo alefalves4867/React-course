@@ -10,7 +10,7 @@ export default function aula14(props){
         <input type='text' name='fnome' value={name.nome} onChange={(e)=>setName({'nome':e.target.value})}/>
 
         <p>Nome digitado: {name.nome}</p>
-        /*aula15 */
+        
         </>
     )
 
