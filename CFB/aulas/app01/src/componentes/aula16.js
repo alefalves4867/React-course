@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function aula16(prop){
-    /*const useState1 = prop.state*/
+   
     const [not1, setNota1] = prop.state(0)
     const [not2, setNota2] = prop.state(0)
     const [not3, setNota3] = prop.state(0)
