@@ -6,22 +6,22 @@ import Resultado from './componentes/aula16-17/Resultado.js'
 
 const App = ()=>{ 
 
-  let a = '0'
-  let b = '0'
-  let c = '0'
-  let d = '0'
-  let e = '0'
+  const [not1, setNota1] = useState(0)
+  const [not2, setNota2] = useState(0)
+  const [not3, setNota3] = useState(0)
+  const [not4, setNota4] = useState(0)
+  const [not5, setNota5] = useState(0)
   
-  let nots = {a, b, c, d, e}
+  
 
   return(
     <>
-    <Notas nNota = {1} state = {useState} value = {a}/>
-    <Notas nNota = {2} state = {useState} value = {b}/>
-    <Notas nNota = {3} state = {useState} value = {c}/>
-    <Notas nNota = {4} state = {useState} value = {d}/>
-    <Notas nNota = {5} state = {useState} value = {e}/>
-    <Resultado nota1 = {a} />
+    <Notas nNota = {1} nota = {not1} state = {setNota1} />
+    <Notas nNota = {2} nota = {not2} state = {setNota2} />
+    <Notas nNota = {3} nota = {not3} state = {setNota3} />
+    <Notas nNota = {4} nota = {not4} state = {setNota4} />
+    <Notas nNota = {5} nota = {not5} state = {setNota5} />
+    <Resultado nota1 = {not1} nota2 = {not2} nota3 = {not3} nota4 = {not4} nota5 = {not5}/>
     </>
   )
 }

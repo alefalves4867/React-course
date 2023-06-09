@@ -3,15 +3,15 @@ import React from 'react'
 export default function Resultado(p){
 
     
+    let resultado = 0
 
-
-    let resultado = parseFloat(p.notas.nots.a)  + parseFloat(p.notas.nots.b)  + parseFloat(notas.nots.c) + parseFloat(p.notas.nots.d) + parseFloat(p.notas.nots.e)
+    resultado = (parseFloat(p.nota1) + parseFloat(p.nota2) + parseFloat(p.nota3) + parseFloat(p.nota4) + parseFloat(p.nota5)) == NaN ? 0 : parseFloat(p.nota1) + parseFloat(p.nota2) + parseFloat(p.nota3) + parseFloat(p.nota4) + parseFloat(p.nota5)
 
    
 
     const color = (rr) =>{
         
-        if(rr > 60){
+        if(rr >= 60){
             let estilo = {
 
                 fontSize: '25px',
@@ -38,7 +38,7 @@ export default function Resultado(p){
 
         <>
         <p>Seu resultado é: {resultado}</p>
-        <p style={color(resultado)}>{resultado > 60 ? 'APROVADO!' : 'REPROVADO!'}</p>
+        <p style={color(resultado)}>{resultado >= 60 ? 'APROVADO!' : 'REPROVADO!'}</p>
         </>
 
     )
