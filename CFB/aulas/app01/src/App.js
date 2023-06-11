@@ -3,20 +3,7 @@ import './App.css'
 import Notas from './componentes/aula16-17/Notas.js'
 import Resultado from './componentes/aula16-17/Resultado.js'
 
-/*
-  const random = (el)=> {
-    if(el.target.getAttribute('nNota') == '1'){
-      setNotas({'not1':el.target.value, 'not2':notas.not2, 'not3':notas.not3, 'not4':notas.not4, 'not5':notas.not5})
-    } else if(el.target.getAttribute('nNota') == 2){
-      setNotas({'not1':notas.not1, 'not2':el.target.value, 'not3':notas.not3, 'not4':notas.not4, 'not5':notas.not5})
-    } else if(el.target.getAttribute('nNota') == 3){
-      setNotas({'not1':notas.not1, 'not2':notas.not2, 'not3':el.target.value, 'not4':notas.not4, 'not5':notas.not5})
-    } else if(el.target.getAttribute('nNota') == 4){
-      setNotas({'not1':notas.not1, 'not2':notas.not2, 'not3':notas.not3, 'not4':el.target.value, 'not5':notas.not5})
-    } else if(el.target.getAttribute('nNota') == 5){
-      setNotas({'not1':notas.not1, 'not2':notas.not2, 'not3':notas.not3, 'not4':notas.not4, 'not5':el.target.value})
-    }
-*/
+
 
 const App = ()=>{ 
 
