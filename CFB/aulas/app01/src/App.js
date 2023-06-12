@@ -3,7 +3,7 @@ import './App.css'
 import Notas from './componentes/aula16-17/Notas.js'
 import Resultado from './componentes/aula16-17/Resultado.js'
 
-
+/*arabic*/
 
 const App = ()=>{ 
 
