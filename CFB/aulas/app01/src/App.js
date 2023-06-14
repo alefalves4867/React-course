@@ -1,13 +1,10 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './App.css'
-import Notas from './componentes/aula16-17/Notas.js'
-import Resultado from './componentes/aula16-17/Resultado.js'
 
-/*aula sobre children concluida*/
+import A18 from './componentes/aula18--/A18.js'
 
-const App = ()=>{ 
-
-  const [not1, setNota1] = useState(0)
+/*aula sobre children concluida
+const [not1, setNota1] = useState(0)
   const [not2, setNota2] = useState(0)
   const [not3, setNota3] = useState(0)
   const [not4, setNota4] = useState(0)
@@ -23,16 +20,25 @@ const App = ()=>{
     
   }
   
-  
-
-  return(
-    <>
+  <>
     <Notas nNota = {1} name = {'not1'} nota = {notas.not1} state = {random} />
     <Notas nNota = {2} name = {'not2'} nota = {notas.not2} state = {random} />
     <Notas nNota = {3} name = {'not3'} nota = {notas.not3} state = {random} />
     <Notas nNota = {4} name = {'not4'} nota = {notas.not4} state = {random} />
     <Notas nNota = {5} name = {'not5'} nota = {notas.not5} state = {random} />
     <Resultado nota1 = {notas.not1} nota2 = {notas.not2} nota3 = {notas.not3} nota4 = {notas.not4} nota5 = {notas.not5}/>
+    </>
+  */
+
+const App = ()=>{ 
+  
+
+  
+  return(
+    <>
+    <A18 useEffect = {useEffect} useState = {useState}/>
+    
+    
     </>
   )
 }
