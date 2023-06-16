@@ -2,7 +2,7 @@ import React from "react";
 
 export default function A18(p){
 
-    /* לא היום :( */
+  
 
     const [a, upN] = p.useState(0)
 
