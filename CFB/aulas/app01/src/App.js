@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import './App.css'
 
-import A18 from './componentes/aula18--/A18.js'
+import A19 from './componentes/aula18--/A19.js'
 
 /*aula sobre children concluida
 const [not1, setNota1] = useState(0)
@@ -28,6 +28,8 @@ const [not1, setNota1] = useState(0)
     <Notas nNota = {5} name = {'not5'} nota = {notas.not5} state = {random} />
     <Resultado nota1 = {notas.not1} nota2 = {notas.not2} nota3 = {notas.not3} nota4 = {notas.not4} nota5 = {notas.not5}/>
     </>
+
+     <A19 useState={useState}/>
   */
 
 const App = ()=>{ 
@@ -36,7 +38,7 @@ const App = ()=>{
   
   return(
     <>
-    <A18 useEffect = {useEffect} useState = {useState}/>
+   
     
     
     </>
