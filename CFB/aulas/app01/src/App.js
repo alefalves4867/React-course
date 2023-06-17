@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './App.css'
 
-import A19 from './componentes/aula18--/A19.js'
+import A22 from './componentes/aula18--/A22.js'
 
 /*aula sobre children concluida
 const [not1, setNota1] = useState(0)
@@ -30,6 +30,7 @@ const [not1, setNota1] = useState(0)
     </>
 
      <A19 useState={useState}/>
+     <A21 name={'Alef'} channel={"Tzion Brazil"}></A21>
   */
 
 const App = ()=>{ 
@@ -38,8 +39,8 @@ const App = ()=>{
   
   return(
     <>
-   
     
+    <A22 vA = {10}></A22>
     
     </>
   )
