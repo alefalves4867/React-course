@@ -13,6 +13,9 @@ export default class A22 extends React.Component{
            vel:0,
            ligado: false,
         }
+
+        this.ld = this.ligDes.bind(this)
+        
         
     }
 
@@ -105,7 +108,7 @@ export default class A22 extends React.Component{
             <p>Modelo: {this.nomeC}</p>
             <p>Velocidade: {this.state.vel} Km</p>
             <p>Ligado: {this.state.ligado ? 'Sim':'Não'}</p>
-            <input type="button" onClick={()=>this.ligDes()} value={this.state.ligado ? 'Desligar': 'Ligar'}></input>
+            <input type="button" onClick={this.ld} value={this.state.ligado ? 'Desligar': 'Ligar'}></input>
 
             <input type="button" onClick={()=>this.acelerar(this.state.ligado)} value={'Acelerar'}></input>
             <input type="button" onClick={()=>this.frear()} value={'Frear'}></input>
