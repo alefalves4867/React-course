@@ -31,6 +31,7 @@ const [not1, setNota1] = useState(0)
 
      <A19 useState={useState}/>
      <A21 name={'Alef'} channel={"Tzion Brazil"}></A21>
+     <A22 vA = {10}></A22>
   */
 
 const App = ()=>{ 
@@ -40,7 +41,7 @@ const App = ()=>{
   return(
     <>
     
-    <A22 vA = {10}></A22>
+    
     
     </>
   )
