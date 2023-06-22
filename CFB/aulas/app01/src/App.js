@@ -39,6 +39,7 @@ import './App.css'
     import Globais from './componentes/aula18--/Globais.js'
     import Aula27 from './componentes/aula18--/A27.js'
     import A27 from './componentes/aula18--/A27.js'
+    fim
   */
 
 const App = ()=>{ 
