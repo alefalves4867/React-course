@@ -40,6 +40,7 @@ import './App.css'
     import Aula27 from './componentes/aula18--/A27.js'
     import A27 from './componentes/aula18--/A27.js'
     fim
+    today
   */
 
 const App = ()=>{ 
