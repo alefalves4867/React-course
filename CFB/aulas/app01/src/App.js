@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './App.css'
 
-import A29 from './componentes/aula18--/A29.js'
+import A30 from './componentes/aula18--/A30Peso.js'
 
 
 
@@ -53,8 +53,8 @@ const App = ()=>{
   return(
     <>
     
-    
-    
+    <A30 useState = {useState}/>
+ 
     </>
   )
 }
