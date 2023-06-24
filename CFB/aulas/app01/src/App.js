@@ -43,6 +43,7 @@ import A29 from './componentes/aula18--/A29.js'
     import A27 from './componentes/aula18--/A27.js'
     fim
     today
+    <A29 useState = {useState}/>
   */
 
 const App = ()=>{ 
@@ -51,7 +52,7 @@ const App = ()=>{
   
   return(
     <>
-    <A29 useState = {useState}/>
+    
     
     
     </>
