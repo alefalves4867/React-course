@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import './App.css'
 
+import A29 from './componentes/aula18--/A29.js'
+
 
 
 /*aula sobre children concluida
@@ -49,7 +51,7 @@ const App = ()=>{
   
   return(
     <>
-    
+    <A29 useState = {useState}/>
     
     
     </>
