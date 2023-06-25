@@ -90,7 +90,7 @@ export default function A30Peso(props){
                 <input value={altura} type = 'number' onChange={(e)=> setAltura(e.target.value)}/>
                 <button>Calcular</button>
 
-                <label>Resultado:{(Calcular(peso, altura) == Infinity) ? '0': Calcular(peso, altura)}</label>
+                <label>Resultado:{(Calcular(peso, altura) == Infinity) ? '0': (Calcular(peso, altura)).toFixed(2)}</label>
             </div>
         )
     }

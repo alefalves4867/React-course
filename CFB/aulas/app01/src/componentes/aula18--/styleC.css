@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 98vw;
+    height: 100vh;
+}
+
+#teatron {
+    width: 98%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+
+#calc {
+
+    background-color: rgba(0, 0, 0, 0.402);
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+
+
+}
+
+
+#teclasC {
+    border-radius:0px 0px 10px 10px;
+    display: grid;
+    background-color: black;
+    padding: 5px;
+    height: 80%;
+    width: 250px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    width: 95%;
+    height: 95%;
+    font-size: 20px;
+    font-weight: 540;
+    border-radius: 100%;
+    color: white;
+    background-color: rgba(27, 26, 26, 0.461);
+    box-shadow: none;
+    border: none;
+    transition: all 1s ease-out ;
+}
+
+.button:active{
+    background-color: white;
+    font-size: 16px;
+    color: black
+}
+
+
+
+
+
+
+#display {
+    height: 20%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#currentOperation {
+    font-size: 30px;
+    font-weight: 500;
+    height: 90%;
+}
+
+#previousOperation {
+    font-size: 20px;
+
+}
