@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#tabuleiro {
+  display: flex;
+  flex-direction: column;
+}
+
+#LinhaTabuleiro {
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+  font-size: 60px;
+  border: 1px solid black;
+}
+
+#casa {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  cursor: pointer;
+  font-size: 60px;
+  border: 1px solid black;
+}
+
+

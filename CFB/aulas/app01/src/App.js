@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import './App.css'
 
-import A33 from './componentes/aula18--/A33Calculadora.js'
+import A35 from './componentes/Aula35/Aula35.jsx'
 
 
 
@@ -53,7 +52,7 @@ const App = ()=>{
   return(
     <>
     
-    <A33 useState = {useState}/>
+      <A35 useState={useState}/>
  
     </>
   )
